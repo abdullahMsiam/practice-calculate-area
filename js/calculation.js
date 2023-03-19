@@ -58,3 +58,27 @@ document.getElementById('rhombus-cal-btn').addEventListener('click', function ()
         addedElement('Rhombus Area:  ', rhombusArea);
     }
 })
+
+document.getElementById('pentagon-cal-btn').addEventListener('click', function () {
+    const actualInput1 = getInputValue('pentagon-input-1');
+    const actualInput2 = getInputValue('pentagon-input-2');
+    if (isNaN(actualInput1) || isNaN(actualInput2) || actualInput1 < 0 || actualInput2 < 0) {
+        alert('You have to provide two number');
+    }
+    else {
+        const pentagonArea = (0.5 * actualInput1 * actualInput2);
+        addedElement('Pentagon Area:  ', pentagonArea);
+    }
+})
+
+document.getElementById('ellipse-cal-btn').addEventListener('click', function () {
+    const actualInput1 = getInputValue('ellipse-input-1');
+    const actualInput2 = getInputValue('ellipse-input-2');
+    if (isNaN(actualInput1) || isNaN(actualInput2) || actualInput1 < 0 || actualInput2 < 0) {
+        alert('You have to provide two number');
+    }
+    else {
+        const ellipseArea = (3.14 * actualInput1 * actualInput2);
+        addedElement('Ellipse Area:  ', ellipseArea);
+    }
+})
