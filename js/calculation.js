@@ -82,3 +82,7 @@ document.getElementById('ellipse-cal-btn').addEventListener('click', function ()
         addedElement('Ellipse Area:  ', ellipseArea);
     }
 })
+
+document.getElementById('blog-btn').addEventListener('click', function () {
+    window.open('blog.html');
+})
