@@ -9,7 +9,7 @@ function getInputValue(fieldInputId) {
 //  added item 
 function addedElement(areaName, calculateValue) {
     const li = document.createElement('li');
-    const node = document.createTextNode(areaName + calculateValue);
+    const node = document.createTextNode(areaName + calculateValue + ' cm2');
     li.appendChild(node);
     const addedItem = document.getElementById('added-item');
     addedItem.appendChild(li);
