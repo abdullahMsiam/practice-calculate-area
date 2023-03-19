@@ -1,0 +1,27 @@
+.my-card {
+    display: grid !important;
+    justify-items: center !important;
+    padding-top: 15px;
+}
+
+.my-card img {
+    width: 150px !important;
+    border-radius: 0 !important;
+}
+
+.card-input {
+    display: flex;
+
+}
+
+.card-input input {
+    border: 0;
+    border-radius: 0;
+    background-color: rgb(216, 216, 216);
+}
+
+.card-input span {
+    border: 0;
+    border-radius: 0;
+    background-color: white;
+}
